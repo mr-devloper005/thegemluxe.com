@@ -8,10 +8,10 @@ export const globalContent = {
     baseUrl: slot4BrandConfig.baseUrl,
   },
   nav: {
-    tagline: 'Independent reading platform',
+    tagline: 'Sharp stories for curious readers',
     primaryLinks: [
-      { label: 'Articles', href: '/articles' },
-      { label: 'Visuals', href: '/image-sharing' },
+      { label: 'Articles', href: '/article' },
+      { label: 'Visuals', href: '/image' },
       { label: 'Listings', href: '/listings' },
       { label: 'Contact', href: '/contact' },
     ],
@@ -21,15 +21,15 @@ export const globalContent = {
     },
   },
   footer: {
-    tagline: 'Stories, resources, and discoverable posts',
-    description: 'A connected publishing surface for articles, visuals, listings, profiles, bookmarks, and downloadable resources.',
+    tagline: 'Independent stories, visual culture, and useful discoveries',
+    description: 'A fast editorial hub for articles, image-led features, listings, profiles, bookmarks, and downloadable resources.',
     columns: [
       {
         title: 'Explore',
         links: [
-          { label: 'Articles', href: '/articles' },
+          { label: 'Articles', href: '/article' },
           { label: 'Listings', href: '/listings' },
-          { label: 'Images', href: '/image-sharing' },
+          { label: 'Images', href: '/image' },
           { label: 'PDF Library', href: '/pdf' },
         ],
       },
@@ -38,8 +38,6 @@ export const globalContent = {
         links: [
           { label: 'About', href: '/about' },
           { label: 'Contact', href: '/contact' },
-          { label: 'Privacy', href: '/privacy' },
-          { label: 'Terms', href: '/terms' },
         ],
       },
     ],
