@@ -14,7 +14,7 @@ export default function ContactPage() {
 
   return (
     <EditableSiteShell>
-      <main className="mx-auto max-w-[1180px] bg-white px-4 py-14 text-black sm:px-6 lg:px-8">
+      <main className="mx-auto max-w-[1100px] bg-white px-4 py-14 text-black sm:px-6 lg:px-8">
         <section className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
             <p className="text-[10px] font-black uppercase tracking-[0.22em] text-[var(--slot4-accent)]">{pagesContent.contact.eyebrow}</p>
